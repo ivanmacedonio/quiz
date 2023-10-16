@@ -1,4 +1,56 @@
-.container-todo{
+.container-todo {
     display: flex;
     justify-content: center;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;
+    min-width: 60%;
+    min-height: 40%;
+}
+
+.formulario input {
+    font-size: 30px;
+    min-width: 400px;
+    border: 3px;
+    border-radius: 10px;
+    border-color: rgb(121, 121, 121);
+    border-style: inherit;
+}
+
+.formulario input::placeholder{
+    text-align: center;
+}
+
+.formulario button {
+    border: 3px;
+    border-radius: 10px;
+    border-style: inherit;
+    border-color: rgb(121, 121, 121);
+    min-width: 100px;
+    transition: background-color 0.3s;
+    transition: border-radius 0.3s;
+}
+
+.formulario button:hover {
+    border-radius: 0px;
+    background-color: rgb(159, 253, 130);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.input {
+    margin-top: 90px;
+}
+
+.table span{
+    margin-right: 20px;
+    font-size: 24px;
 }
